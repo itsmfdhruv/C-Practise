@@ -36,6 +36,6 @@ int main(){
             else
                 printf(" *") ;
         }
-        printf("\n") ;
+        print("\n") ;
     }
 }

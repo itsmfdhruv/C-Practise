@@ -7,8 +7,8 @@ using namespace std;
 vector<int> majorityElement(vector<int> v){
     sort(v.begin(), v.end()) ;
     vector<int> mera ;
-    int count = 1;
-    for(int i = 0; i <= v.size() - 1; i++){
+    int count = 1 ;
+    for(int i = 0 ; i <= v.size() - 1 ; i++){
         if(v[i] == v[i+1]){
             count ++;
         }else{

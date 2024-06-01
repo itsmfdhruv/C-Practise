@@ -8,7 +8,7 @@ pair<int, int> getFloorAndCeil(vector<int> &a, int n, int x) {
     int floor , ceiling ;
 
     while(e >= s){
-        int mid = s + (e-s)/2 ;
+        int mid = s + ( e - s )/2 ;
 
         if(a[mid] <= x){
             floor = mid ;

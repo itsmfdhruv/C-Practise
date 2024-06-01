@@ -47,6 +47,6 @@ int main()
     for (auto it : ans) {
         cout << it << " ";
     }
-    cout << "]n";
+    cout << "]/n";
     return 0;
 }

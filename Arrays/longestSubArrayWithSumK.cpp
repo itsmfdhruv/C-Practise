@@ -4,7 +4,7 @@ using namespace std;
 //count the number of subarray 
 int longestSubarrayWithSumK(vector<int> a, long long k) {
     unordered_map<int, int> mpp ;
-    int sum =0 ;
+    int sum = 0 ;
     int count = 1;
     for(int i = 0; i < a.size() ; i++){
         sum += a[i] ;
@@ -48,9 +48,9 @@ int MaxSubarrayWithSumK(vector<int> & arr, long long k){
     int j = 0 ;
     long long sum = 0  ;
 
-    for(int i = 0; i < arr.size(); i++){
+    for(int i = 0 ; i < arr.size() ; i++){
         sum += arr[i] ;
-        while(sum > k){
+        while( sum > k ){
             sum -= arr[j++] ;
         }
         if(sum == k ){
